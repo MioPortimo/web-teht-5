@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var randomNumber = Math.floor(Math.random() * 6) + 1;
 
         // Päivitetään nopan kuva
-        diceImageElement.src = 'img/' + randomNumber + '.png';
+        diceImageElement.src = 'kuvat/' + randomNumber + '.png';
 
         // Päivitetään näytettävä numero
         outputElement.textContent = 'Arvottu numero: ' + randomNumber;
